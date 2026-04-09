@@ -157,7 +157,7 @@ async function createInitialHelpMenu() {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made with Shadow Bot❤️" 
     });
     embed.setTimestamp();
 
@@ -172,7 +172,7 @@ async function createInitialHelpMenu() {
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
+        .setLabel("Learn from YT ERROR HUNTER")
         .setURL("https://youtube.com/@yt-error-hunter")
         .setStyle(ButtonStyle.Link);
 
