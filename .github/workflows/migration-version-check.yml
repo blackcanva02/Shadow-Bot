@@ -16,9 +16,9 @@ jobs:
       postgres:
         image: postgres:16
         env:
-          POSTGRES_USER: titanbot
-          POSTGRES_PASSWORD: titanbot
-          POSTGRES_DB: titanbot
+          POSTGRES_USER: shadow bot
+          POSTGRES_PASSWORD: shadow bot
+          POSTGRES_DB: shadow bot
         ports:
           - 5432:5432
         options: >-
@@ -31,9 +31,9 @@ jobs:
       POSTGRES_URL: postgresql://titanbot:shadowbot@localhost:5432/shadowbot
       POSTGRES_HOST: localhost
       POSTGRES_PORT: 5432
-      POSTGRES_DB: titanbot
-      POSTGRES_USER: titanbot
-      POSTGRES_PASSWORD: titanbot
+      POSTGRES_DB: shadow bot
+      POSTGRES_USER: shadow bot
+      POSTGRES_PASSWORD: shadow bot
       POSTGRES_SSL: "false"
       SCHEMA_VERSION: "1"
       SCHEMA_VERSION_LABEL: "baseline-v1"
