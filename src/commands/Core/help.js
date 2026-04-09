@@ -168,12 +168,12 @@ async function createInitialHelpMenu() {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setURL("https://discord.gg/8cHF5h9a")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
         .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
+        .setURL("https://youtube.com/@yt-error-hunter")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
