@@ -28,7 +28,7 @@ jobs:
           --health-retries 5
 
     env:
-      POSTGRES_URL: postgresql://titanbot:titanbot@localhost:5432/titanbot
+      POSTGRES_URL: postgresql://titanbot:shadowbot@localhost:5432/shadowbot
       POSTGRES_HOST: localhost
       POSTGRES_PORT: 5432
       POSTGRES_DB: titanbot
